@@ -6,6 +6,7 @@ import {
   IsNumber,
   IsPositive,
   IsString,
+  IsUUID,
   MaxLength,
   ValidateNested,
 } from 'class-validator';
@@ -13,6 +14,8 @@ import { ProductCharacteristicsDTO } from './ProductCharacteristics.dto';
 import { ProductImageDTO } from './ProductImage.dto';
 
 class CreateProductDTO {
+  @IsUUID()
+  usuarioId: string;
   @IsNotEmpty()
   @IsString()
   name: string;
