@@ -4,7 +4,7 @@ Página do curso: [Nest.js: criando uma API Restful](https://cursos.alura.com.br
 
 O projeto desenvolvido é uma API Restful inspirada em plataformas de comércio eletrônico, como Mercado Livre ou Enjoei. Durante o curso, foram abordados tópicos como recebimento de dados, validações de dados e fluxos de cadastro, listagem, edição e deleção dos usuários. Os exercícios incluirão a parte de fluxos do produtos e validação das informações.
 
-Não haverá manipulação de banco de dados neste curso, focando exclusivamente nos conceitos de construção de APIs Restful utilizando o NestJS, suas bibliotecas e integrações.
+Não haverá manipulação de banco de dados neste curso, focando exclusivamente nos conceitos de construção de APIs Restful utilizando o **Typescript, NestJS, suas bibliotecas e integrações**.
 
 ## Sobre o curso
 
