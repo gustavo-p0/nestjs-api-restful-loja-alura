@@ -1,0 +1,156 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "curso-loja-nestjs-alura",
+    "dateExported": "2024-02-19T13:31:01.358Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "a418516b-245d-4af0-bc5e-272eab7c8d2e",
+            "name": "usuario",
+            "containerId": "",
+            "created": "2024-02-17T23:54:03.781Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "ac200238-51eb-45bd-9b79-9e56bfec08cc",
+            "name": "produtos",
+            "containerId": "",
+            "created": "2024-02-17T23:54:43.230Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "9f448c0a-af32-412a-a869-6ec6a3de3df9",
+            "colId": "c6fa3ef6-7d94-4ddf-8623-9424116aaedd",
+            "containerId": "a418516b-245d-4af0-bc5e-272eab7c8d2e",
+            "name": "[create] usuario",
+            "url": "http://localhost:3000/usuarios",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-17T23:09:50.992Z",
+            "modified": "2024-02-19T13:29:57.920Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"Lucas\",\r\n  \"email\": \"lucas@email.com\",\r\n  \"password\": \"segredo123\"\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e454ee80-2d43-4661-b58f-010821fbea86",
+            "colId": "c6fa3ef6-7d94-4ddf-8623-9424116aaedd",
+            "containerId": "a418516b-245d-4af0-bc5e-272eab7c8d2e",
+            "name": "[all] usuario",
+            "url": "http://localhost:3000/usuarios",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-17T23:11:17.012Z",
+            "modified": "2024-02-17T23:11:25.634Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4369ca98-5d8f-4637-9057-ca6e36e6ab7d",
+            "colId": "c6fa3ef6-7d94-4ddf-8623-9424116aaedd",
+            "containerId": "ac200238-51eb-45bd-9b79-9e56bfec08cc",
+            "name": "[create] produto",
+            "url": "http://localhost:3000/produtos",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-17T23:55:43.395Z",
+            "modified": "2024-02-18T16:48:04.548Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Produto Exemplo\",\n  \"userId\": \"c0d40f7a-5ea5-4c32-9e6f-31010931a1f2\",\n  \"value\": 50.99,\n  \"availableQuantity\": 100,\n  \"description\": \"Descrição do produto\",\n  \"characteristics\": [\n    { \"name\": \"Característica 1\", \"description\": \"Descrição da Característica 1\" },\n    { \"name\": \"Característica 2\", \"description\": \"Descrição da Característica 2\" },\n    { \"name\": \"Característica 3\", \"description\": \"Descrição da Característica 3\" }\n  ],\n  \"images\": [\n    { \"url\": \"https://example.com/image1.jpg\", \"description\": \"Imagem 1\" },\n    { \"url\": \"https://example.com/image2.jpg\", \"description\": \"Imagem 2\" }\n  ],\n  \"category\": \"Categoria Exemplo\",\n  \"creationDate\": \"2024-02-17\",\n  \"updateDate\": \"2024-02-17\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "57228806-4f53-4038-ba67-2edba222316f",
+            "colId": "c6fa3ef6-7d94-4ddf-8623-9424116aaedd",
+            "containerId": "ac200238-51eb-45bd-9b79-9e56bfec08cc",
+            "name": "[all] produtos",
+            "url": "http://localhost:3000/produtos",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-02-17T23:56:05.486Z",
+            "modified": "2024-02-17T23:57:06.520Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "67a5a4ce-8566-4fd8-895a-5c68f8e8053e",
+            "colId": "c6fa3ef6-7d94-4ddf-8623-9424116aaedd",
+            "containerId": "a418516b-245d-4af0-bc5e-272eab7c8d2e",
+            "name": "[update] usuario",
+            "url": "http://localhost:3000/usuarios/33518e9b-3003-4a1e-b472-d72018f9b40f",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-02-18T15:41:48.325Z",
+            "modified": "2024-02-19T13:30:06.206Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"name\": \"Lucas Silva\",\r\n  \"email\": \"lucas.silva@email.com\",\r\n  \"password\": \"novasenha456\"\r\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d9188e16-9943-4bdf-bada-f25484632805",
+            "colId": "c6fa3ef6-7d94-4ddf-8623-9424116aaedd",
+            "containerId": "a418516b-245d-4af0-bc5e-272eab7c8d2e",
+            "name": "usuario",
+            "url": "http://localhost:3000/usuarios/c0d40f7a-5ea5-4c32-9e6f-31010931a1f2",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-02-18T16:01:29.125Z",
+            "modified": "2024-02-18T16:02:55.007Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3a6806ae-660b-4482-94fc-36cd73a8fe23",
+            "colId": "c6fa3ef6-7d94-4ddf-8623-9424116aaedd",
+            "containerId": "ac200238-51eb-45bd-9b79-9e56bfec08cc",
+            "name": "product",
+            "url": "http://localhost:3000/produtos/b52a6835-0250-4bfc-8258-d7af6a1a7972",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2024-02-18T16:46:23.217Z",
+            "modified": "2024-02-19T13:19:28.336Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "651192c4-74af-4627-b0b5-72ea44b5ab4e",
+            "colId": "c6fa3ef6-7d94-4ddf-8623-9424116aaedd",
+            "containerId": "ac200238-51eb-45bd-9b79-9e56bfec08cc",
+            "name": "[update] produto",
+            "url": "http://localhost:3000/produtos/05c6e5a1-4a29-4076-98dd-c14bfe7bc076",
+            "method": "PUT",
+            "sortNum": 100000,
+            "created": "2024-02-18T16:48:36.865Z",
+            "modified": "2024-02-19T13:30:42.586Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Novo Produto\",\n  \"id\": \"b52a6835-0250-4bfc-8258-d7af6a1a7972\",\n  \"userId\": \"b52a6835-0250-4bfc-8258-d7af6a1a7972\",\n  \"value\": 79.99,\n  \"availableQuantity\": 150,\n  \"description\": \"Nova descrição do produto\",\n  \"characteristics\": [\n    { \"name\": \"Nova Característica 1\", \"description\": \"Descrição da Nova Característica 1\" },\n    { \"name\": \"Nova Característica 2\", \"description\": \"Descrição da Nova Característica 2\" },\n    { \"name\": \"Nova Característica 3\", \"description\": \"Descrição da Nova Característica 3\" }\n  ],\n  \"images\": [\n    { \"url\": \"https://example.com/newimage1.jpg\", \"description\": \"Nova Imagem 1\" },\n    { \"url\": \"https://example.com/newimage2.jpg\", \"description\": \"Nova Imagem 2\" }\n  ],\n  \"category\": \"Nova Categoria\",\n  \"creationDate\": \"2024-02-19\",\n  \"updateDate\": \"2024-02-19\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
